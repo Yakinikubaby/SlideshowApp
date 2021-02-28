@@ -74,13 +74,13 @@
                         <outlet property="backBotton" destination="M6I-ks-QAD" id="74U-eu-ihg"/>
                         <outlet property="nextBotton" destination="Ztp-5n-NCg" id="ilb-Ux-8id"/>
                         <outlet property="slideShowBotton" destination="QJZ-fv-cao" id="Abd-LK-YIt"/>
+                        <segue destination="1aF-c4-z31" kind="show" identifier="toLearge" id="brg-1Z-jo9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="YVJ-OH-HTS">
-                    <eventButtonMask key="buttonMaskRequired" primary="YES" secondary="YES"/>
                     <connections>
-                        <segue destination="1aF-c4-z31" kind="show" id="FLx-ry-6WL"/>
+                        <action selector="TapAction:" destination="BYZ-38-t0r" id="nyl-Xa-plM"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

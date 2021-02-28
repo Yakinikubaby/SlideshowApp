@@ -28,6 +28,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var backBotton: UIButton!
     @IBOutlet weak var slideShowBotton: UIButton!
     
+    @IBAction func TapAction(_ sender: Any) {
+        if (timer != nil) {
+            //スライドショーを停止する
+            timer.invalidate()
+            timer = nil
+            //進む、戻るボタンを有効化する
+            nextBotton.isEnabled = true
+            backBotton.isEnabled = true
+            //停止ボタンを再生ボタンに変化させる
+            slideShowBotton.setTitle("再生", for: .normal)
+        }
+        //セグエを使用して画面を遷移
+        performSegue(withIdentifier: "toLearge", sender: nil)
+    }
     
     @IBAction func nextBotton(_ sender: Any) {
         nowIndex += 1
