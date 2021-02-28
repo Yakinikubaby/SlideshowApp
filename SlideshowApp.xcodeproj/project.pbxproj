@@ -13,6 +13,11 @@
 		CC98715925EB37B8004B4216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC98715725EB37B8004B4216 /* Main.storyboard */; };
 		CC98715B25EB37BB004B4216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC98715A25EB37BB004B4216 /* Assets.xcassets */; };
 		CC98715E25EB37BB004B4216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC98715C25EB37BB004B4216 /* LaunchScreen.storyboard */; };
+		CC98716825EB73BF004B4216 /* LeargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98716725EB73BF004B4216 /* LeargeViewController.swift */; };
+		CCCF41A925EB912200739CE3 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCCF41A625EB912100739CE3 /* image2.jpeg */; };
+		CCCF41AA25EB912200739CE3 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCCF41A725EB912200739CE3 /* image3.jpeg */; };
+		CCCF41AB25EB912200739CE3 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCF41A825EB912200739CE3 /* image1.png */; };
+		CCCF41AE25EB918F00739CE3 /* image0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCCF41AD25EB918F00739CE3 /* image0.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CC98715A25EB37BB004B4216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC98715D25EB37BB004B4216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC98715F25EB37BB004B4216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC98716725EB73BF004B4216 /* LeargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeargeViewController.swift; sourceTree = "<group>"; };
+		CCCF41A625EB912100739CE3 /* image2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpeg; sourceTree = "<group>"; };
+		CCCF41A725EB912200739CE3 /* image3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpeg; sourceTree = "<group>"; };
+		CCCF41A825EB912200739CE3 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		CCCF41AD25EB918F00739CE3 /* image0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				CC98715125EB37B7004B4216 /* AppDelegate.swift */,
 				CC98715325EB37B7004B4216 /* SceneDelegate.swift */,
 				CC98715525EB37B7004B4216 /* ViewController.swift */,
+				CC98716725EB73BF004B4216 /* LeargeViewController.swift */,
 				CC98715725EB37B8004B4216 /* Main.storyboard */,
 				CC98715A25EB37BB004B4216 /* Assets.xcassets */,
 				CC98715C25EB37BB004B4216 /* LaunchScreen.storyboard */,
 				CC98715F25EB37BB004B4216 /* Info.plist */,
+				CCCF41AD25EB918F00739CE3 /* image0.jpeg */,
+				CCCF41A825EB912200739CE3 /* image1.png */,
+				CCCF41A625EB912100739CE3 /* image2.jpeg */,
+				CCCF41A725EB912200739CE3 /* image3.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -124,9 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCF41A925EB912200739CE3 /* image2.jpeg in Resources */,
 				CC98715E25EB37BB004B4216 /* LaunchScreen.storyboard in Resources */,
 				CC98715B25EB37BB004B4216 /* Assets.xcassets in Resources */,
+				CCCF41AE25EB918F00739CE3 /* image0.jpeg in Resources */,
+				CCCF41AB25EB912200739CE3 /* image1.png in Resources */,
 				CC98715925EB37B8004B4216 /* Main.storyboard in Resources */,
+				CCCF41AA25EB912200739CE3 /* image3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +159,7 @@
 				CC98715625EB37B8004B4216 /* ViewController.swift in Sources */,
 				CC98715225EB37B7004B4216 /* AppDelegate.swift in Sources */,
 				CC98715425EB37B7004B4216 /* SceneDelegate.swift in Sources */,
+				CC98716825EB73BF004B4216 /* LeargeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
